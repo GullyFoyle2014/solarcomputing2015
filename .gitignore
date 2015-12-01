@@ -4,4 +4,7 @@
 /bower_components/*
 .Gruntfile.js.swp
 *.swp
+*.swo
+/*.swp
+/*.swo
 /*/*.swp
