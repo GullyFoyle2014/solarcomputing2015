@@ -1,0 +1,4 @@
+#Dev Tools Modules
+
+/node_modules/*
+/bower_components/*
