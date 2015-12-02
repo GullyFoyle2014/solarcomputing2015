@@ -18,6 +18,47 @@
     height: 100%;
 }
 
+/* OBJECTS */
+/** Media **/
+.media,
+.bdy {
+    overflow: hidden;
+    zoom: 1;
+
+    _overflow: visible;
+}
+.media .img {
+    float: left;
+
+    margin-right: 15px;
+}
+.media .img img {
+    display: block;
+}
+.media .imgExt {
+    float: right;
+
+    margin-left: 10px;
+}
+/* media styles */
+.media .bdy {
+    display: block;
+}
+.media img {
+    padding: 1px;
+
+    border: 1px solid #ccc;
+}
+@media ( max-width: 400px ) {
+    .media .bdy {
+        display: inline;
+    }
+}
+.details-list .img {
+    cursor: default;
+}
+
+
 /* Main Structure */
 body {
     font-family: verdana, arial;
@@ -238,7 +279,7 @@ h2 {
     }
     .sol-software,
     .sol-skills {
-        display: inline-block; 
+        display: inline-block;
 
         width: 45%;
     }
@@ -284,7 +325,48 @@ h2 {
     color: #9ab729;
     border-top: 1px dashed #8fae15;
 }
-.more-details span {
+/*.more-details span {
+    display: block;
+
+    width: 100px;
+    margin: -10px 0 0 20px;
+    padding-right: 20px;
+
+    text-align: center;
+
+    border: 1px dashed #9ab729;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+            border-radius: 3px;
+}*/
+/*.more-details.section span {
+    background: #fff url('../images/navport_up.gif') no-repeat right center;
+}
+.more-details.section.hidden span {
+    background: #fff url('../images/navport_down.gif') no-repeat right center;
+}*/
+.more-details ul {
+    display: none;
+
+    margin: 15px 20px 5px 25px;
+    padding-bottom: 10px;
+
+    border-bottom: 1px solid #e4f477;
+}
+.more-details ul li {
+    clear: both;
+
+    margin-bottom: 13px;
+}
+.more-details ul li.client-ref {
+    overflow: hidden;
+
+    margin-bottom: 15px;
+
+    list-style: none;
+}
+.more-details .switch {
     display: block;
 
     width: 100px;
@@ -299,23 +381,13 @@ h2 {
             border-radius: 3px;
             border-radius: 3px;
 }
-.more-details.section span {
+.more-details.section .switch {
     background: #fff url('../images/navport_up.gif') no-repeat right center;
 }
-.more-details.section.hidden span {
+.more-details.section.hidden .switch {
     background: #fff url('../images/navport_down.gif') no-repeat right center;
 }
-.more-details ul {
-    display: none;
 
-    margin: 10px 20px 5px 35px;
-    padding-bottom: 10px;
-
-    border-bottom: 1px solid #e4f477;
-}
-.more-details ul li {
-    margin-bottom: 10px;
-}
 
 /* Headers and Links */
 #head h1 {
