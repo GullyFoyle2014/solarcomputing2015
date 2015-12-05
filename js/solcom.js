@@ -1,5 +1,10 @@
 $( document ).ready(function() {
 
+    //No links prevent default
+    $('.nolink a').click( function(e) {
+        e.preventDefault();
+    });
+
     // More Details toggle for resume items
     $('.more-details h5 span').click(function(){
         var link = $(this);
