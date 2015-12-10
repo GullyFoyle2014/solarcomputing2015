@@ -23,4 +23,6 @@ $( document ).ready(function() {
         $(this).parent().toggleClass('hidden');
     });
 
-});
+
+
+});//end doc.ready
