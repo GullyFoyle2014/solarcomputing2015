@@ -1,0 +1,12 @@
+Grunt Command Set:
+
+Solarcomputing Project:
+
+CSSMin:
+grunt cssmin:production
+
+SASS Compile:
+grunt sass
+
+Run Web Server:
+python -m SimpleHTTPServer 9000  (localhost:9000)
