@@ -24,18 +24,43 @@ module.exports = function(grunt) {
           }]
         }
     },
+    concat: {
+      js: {
+        src: 'js/*.js',
+        dest: 'js/concat/solarcomputing_cat.js'
+      },
+      css: {
+        src: 'css/compiled/*.css',
+        dest: 'css/compiled/concat/solarcomputing_cat.css'
+      }
+    },
     cssmin: {
-      production: {
-        expand: true,
-        cwd: 'css/compiled',
-        src: ['*.css'],
-        dest: 'css/compiled/min'
+      target: {
+        files: [{
+          expand: true,
+          cwd: 'css/compiled/concat',
+          src: ['solarcomputing_cat.css', '!*.min.css'],
+          dest: 'css/compiled/concat/min',
+          ext: '.min.css'
+        }]
+      }
+    },
+    uglify: {
+      options: {
+        mangle: false
+      },
+      my_target: {
+        files: {
+          'js/concat/min/solarcomputing_cat.min.js': ['js/concat/solarcomputing_cat.js']
+        }
       }
     }
   });
   // Each plugin must be loaded following this pattern
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.registerTask('default', ['sass','jshint','cssmin']); 
+  grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.registerTask('default', ['jshint','sass','concat','cssmin','uglify']); 
 };
