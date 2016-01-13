@@ -326,6 +326,9 @@ h2 {
     h5 {
         padding-right: 90px;
     }
+    h5 {
+        margin-bottom: 2px;
+    }
 }
 .sol-res-item p,
 .more-details {
@@ -444,7 +447,7 @@ h3 {
 }
 h4 {
     height: auto;
-    margin: 0;
+    margin: 0 0 3px;
 
     font-size: 11px;
     font-weight: bold;
