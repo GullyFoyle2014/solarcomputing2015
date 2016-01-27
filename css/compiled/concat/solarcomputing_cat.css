@@ -567,8 +567,8 @@ body {
 #sol-content {
   max-width: 958px;
   margin: 0 auto;
-  border-right: 1px dashed #9ab729;
-  border-left: 1px dashed #9ab729;
+  border-right: 1px dashed #dbf049;
+  border-left: 1px dashed #dbf049;
   background: url("/images/bg_slice.png") repeat left top;
 }
 #sol-content .cont-pdg {
@@ -596,7 +596,15 @@ body {
 }
 
 .site-name {
+  position: relative;
   float: right;
+}
+
+#logo {
+  position: absolute;
+  right: -32px;
+  top: 0;
+  opacity: 0;
 }
 
 .logo {
@@ -737,7 +745,7 @@ h2 {
   width: 40%;
   margin-left: -1px;
   text-align: center;
-  border: 1px dashed #9ab729;
+  border: 1px dashed #dbf049;
   border-left: none;
   -webkit-border-top-right-radius: 8px;
   -moz-border-radius-topright: 8px;
@@ -868,7 +876,7 @@ h2 {
 .more-details .switch {
   display: block;
   width: 100px;
-  margin: -10px 0 0 20px;
+  margin: -10px 0 0 3%;
   padding-right: 20px;
   text-align: center;
   border: 1px dashed #9ab729;
@@ -925,7 +933,7 @@ h3 {
 
 h4 {
   height: auto;
-  margin: 0 0 3px 0;
+  margin: 0 0 3px;
   font-size: 11px;
   font-weight: bold;
   color: #333;

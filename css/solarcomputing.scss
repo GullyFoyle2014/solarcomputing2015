@@ -1,6 +1,7 @@
 /* Variables */
 $color-green: #9ab729;
 $color-green-border: #8fae15;
+$color-green-lightest: #dbf049;
 $color-gray-dark: #666;
 $color-gray-darkest: #333;
 $color-white: #fff;
@@ -76,8 +77,8 @@ body {
     max-width: 958px;
     margin: 0 auto;
 
-    border-right: 1px dashed $color-green;
-    border-left: 1px dashed $color-green;
+    border-right: 1px dashed $color-green-lightest;
+    border-left: 1px dashed $color-green-lightest;
     background: url('/images/bg_slice.png') repeat left top;
 
     .cont-pdg {
@@ -105,7 +106,14 @@ body {
     padding-top: 10px;
 }
 .site-name {
+    position: relative;
     float: right;
+}
+#logo {
+    position: absolute;
+    right: -32px;
+    top: 0;
+    opacity: 0;
 }
 .logo {
     display: block;
@@ -248,7 +256,7 @@ h2 {
 
     text-align: center;
 
-    border: 1px dashed $color-green;
+    border: 1px dashed $color-green-lightest;
     border-left: none;
     -webkit-border-top-right-radius: 8px;
     -moz-border-radius-topright: 8px;
@@ -381,7 +389,7 @@ h2 {
         display: block;
 
         width: 100px;
-        margin: -10px 0 0 20px;
+        margin: -10px 0 0 3%;
         padding-right: 20px;
 
         text-align: center;

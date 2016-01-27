@@ -1,0 +1,83 @@
+
+"name" : "Alex Morse",
+"email" : "alex.m2004@gmail.com",
+"address" : "34-52 43rd Street<br />Apt. 1L<br />Long Island City, NY 11101",
+"phone" : "347-677-4225",
+"skills" : ["HTML 4/5", "CSS 2/3", "SASS/LESS CSS Pre-processors", "JS/JQuery", "Project and Product Management", "Agile Methodologies","Prototyping", "Website Production and Development", "Adaptive/Responsive", "Mobile-first", "Drupal themes", "custom CMS\'s", "Micro-site and special feature production", "Graphics design & Optimization", "Version control (Git,Mercurial)", "QA", "Audio and Video production (recording, editing, optimizing, compressing"],
+"software" : ["Komodo Editor", "SublimeText", "Command-line Git and SourceTree", "Virtual Machines (local development\/testing)", "Photoshop/Fireworks", "Device emulators (Xcode, Browser emulation)", "Chrome Dev Tools/Firebug", "Drupal CMS", "WordPress CMS", "Gemini/Jira (ticket and sprint management tools)","Mac and PC platforms."],
+
+"experience" : { 
+
+}
+
+
+Hearst Corporation – New York
+Front-end Developer/Producer
+August, 2014 - present
+Maintained and built websites using HTML 4/5, CSS 2/3, LESS CSS, JavaScript/Jquery with some Smarty/PHP. Using Hearst Newspapers' custom CMS to format and publish a wide range of responsive content onto mobile devices and desktop browsers. Working in an Agile method to produce quick and regular releases adding new features and fixing bugs. Worked in a large distributed team via scrums/sprints and team-communication tools. (Jira, HipChat/IM).
+
+- Built the front-end components and helped plan, produce and test the SSO/single-sign-on system for the HoustonChronicle market websites (using Janrain). Reviewed additional SSO providers for other projects.
+- Maintained the front-end styles, scripts, and markup for several large websites on multiple platforms (mobile and desktop) including third-party products and content.
+- Worked with Design and UI/UX to achieve their goals, and to refactor designs and wireframes to meet real-world
+requirements as solutions are developed.
+- Regular release cycles achieved through daily scrums and sprints (Agile). Penton Media Inc. – New York
+
+Penton Media
+Technical Producer
+2007 – August, 2014
+Built and maintained the Pisces primary CMS for Penton’s 80+ magazine websites using Drupal. Built websites and content for Penton as well as expanded platform components for social media, community experiences, and expert networks. Maintained a central code-base and CSS framework for fast and efficient deployments using Agile methodologies. Tracked tasks from the planning and development stages into the release and post-deployment process. Used strict QA and testing strategies in tune with regular deployment schedules.
+
+- Created Adaptive/Responsive sites using HTML 4/5 and CSS 2/3 with a “Mobile First” strategy.
+- Built a custom CSS framework to manage many sites on one central codebase (CSS 2/3, SASS/LESS preprocessors).
+- Semantic and accessible code, code reviews and regular testing cycles built into every project.
+- Worked with Design to achieve better UI/UX for all user experiences across many sites (Live prototyping, Interactive wireframes).
+- Helped convert print-focused magazines to a digital strategy to improve revenue at Penton.
+
+Prism B2B – New York
+Tech Producer/Producer
+2004 - 2007
+Built magazine websites and performed total redesigns for 120+ magazines using HTML 4/5, CSS 2/3, Javascript and Jquery. Helped produce and build a custom WordPress application called “Ask the Experts”. Managed the “Help Desk” for magazine websites and ticketed issues. Supported Penton’s editorial staff in producing web content and deploying third-party materials including microsites and special promotions.
+
+- Managed company-wide website “Help Desk” to support Prism’s online products.
+- Built the “Ask the Experts” product in WordPress, converting it into an “Expert Community” tool that sold very well in the Agriculture and Trades sectors of Prism’s B2B Magazines.
+- Built micro-sites and special promotions as well as optimizing and deploying third-party widgets and content.
+- Newsletter production
+
+Freelance – New York/Washington D.C.
+Producer/Web Developer/Sound Designer
+2002 – 2010
+Built and Designed websites for global corporations, clothing design firms, museums and artists using HTML 4/5, CSS 2/3, Javascript/JQuery, and Flash from Photoshop/Illustrator designs. Customized WordPress to make websites and web applications. Managed projects and client relationships. Performed sound design, recording, and audio production. Projects include The World Bank, Singer Corporation, ART.net, WW Norton publishers, Behavior.com, and others.
+
+SPALAB – New York
+Interactive Developer/Sound Designer
+2000 – 2002
+Built websites using HTML, CSS, JavaScript, and Flash. Sound design for websites and online games. Managed the SPALAB Internet radio including audio production, musical programing, feature development, documentation, license and broadcast agreements. Streaming audio consulting and production. QA Testing.
+
+Oven Digital – New York
+Production Manager/Web Developer
+1998 – 2000
+Built award winning websites, kiosks, ad banners, games and graphics. As Production Manager trained junior developers, wrote documentation, managed client relationships and projects. Performed sound design and production, 3d/games consulting, QA Testing. Projects include The Museum of Modern Art, Tiffany & Co., Probono.net, Wildenstein & Co., and others.
+
+
+"educationTraining" : "Acquia Training<br />Drupal Theme Courses<br />NYU SCPS<br />JavaScript I<br /><br />George Mason University – 1995<br />Georgetown University McGhee Center – Alanya Turkey<br />Bachelor of Arts – History",
+"awards" : "Prism B2B (now Penton Media)<br />
+Entrepreneur Award 2006<br /><br />
+
+Museum of Modern Art Website at Oven Digital:<br />
+January 2001 – Yahoo Internet Life 2001 Best Art Museum Website<br />
+July 1999 – Ask Jeeves Silver Platter Site Award<br />
+May 1999 – Cool Site of the Day<br />
+May 1999 – Education World Best of May, Art Safari Website<br />
+December 1998 – Time Out New York, top Ten Best Websites<br />
+October 1998 – Shift Magazine 100 Best Websites<br />
+June 1998 – Suite 101 Arts and Technology Top 5 Sites<br />
+April 1998 – Museum of the Web Conference. 1998 Best Overall Site.6<br />
+April 1998 – Silver Pencil Award from The One Club for Art and Copy.<br /><br />
+Print Magazine Best Website:<br />
+“The Crow” - online graphic novel/website - Sound Design.<br /><br />
+Macromedia Showcase:<br />
+OneMansEye.com – 2001<br />
+Spalab.net – 2000<br />
+Oven.com – 1999<br /><br />
+DIRECTOR-3D.com showcase award:<br />
+Comedy Central’s “Battlebots” – Online game.<br />

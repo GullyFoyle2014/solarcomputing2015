@@ -1,0 +1,7 @@
+// Portfolio
+
+- Do "CSS Masonry", with each item, being a portfolio entry with image and text description.
+- a expand/details button on each, will create a modal with a bigger image and more text.
+- on the modal, a "next" will load the next item as modal, or users can click "X" and go back to Masonry page display.
+
+make it responsive along these lines:http://w3bits.com/css-masonry/
