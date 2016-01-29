@@ -629,6 +629,8 @@ body {
 @media (max-width: 540px) {
   .site-name {
     float: none;
+    position: relative;
+    overflow: hidden;
     width: 240px;
     margin: 0 auto;
   }
@@ -814,7 +816,6 @@ h2 {
   display: inline-block;
   clear: both;
   margin-top: 40px;
-  padding-right: 20px;
 }
 
 .sol-res-item {
@@ -836,14 +837,20 @@ h2 {
   font-size: 12px;
   line-height: 20px;
   color: #666;
+  text-align: justify;
 }
 
+@media (min-width: 600px) {
+  .sol-res-item p {
+    text-align: left;
+  }
+}
 .sol-res-item.hearst {
-  background: url("/images/clients/hearst/experience_client_logo_transparency-hearst_sm.png") no-repeat right top;
+  background: url("/images/clients/hearst/experience_client_logo_transparency-hearst_sm.png") no-repeat 97% top;
 }
 
 .sol-res-item.penton {
-  background: url("/images/clients/penton/experience_client_logo_transparency_Penton.png") no-repeat right -10px;
+  background: url("/images/clients/penton/experience_client_logo_transparency_Penton.png") no-repeat 97% -10px;
 }
 
 .item-callout {
