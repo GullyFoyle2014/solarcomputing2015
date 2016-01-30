@@ -24,5 +24,10 @@ $( document ).ready(function() {
     });
 
 
+$('#toTop').click(function(){
+    $('#body').animate({
+        scrollTop: 0
+    }, 1500);
+});
 
 });//end doc.ready

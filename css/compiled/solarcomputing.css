@@ -370,6 +370,7 @@ h2 {
 .more-details ul li {
   clear: both;
   margin-bottom: 13px;
+  text-align: left;
 }
 .more-details ul li.client-ref {
   overflow: hidden;
