@@ -1057,7 +1057,7 @@ a.hdGreenLink:hover,
   margin-bottom: 20px;
 }
 .portItem .portImg {
-  max-width: 80%;
+  max-width: 100%;
   border: 2px solid #c7df63;
 }
 
