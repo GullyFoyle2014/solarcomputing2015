@@ -7,6 +7,10 @@
   list-style: none;
   list-style-image: none;
 }
+.clean-uls ul li {
+  list-style: none;
+  list-style-image: none;
+}
 
 .nomargnopad {
   margin: 0;
@@ -65,6 +69,7 @@ body {
 
 #sol-content {
   max-width: 958px;
+  height: 100%;
   margin: 0 auto;
   border-right: 1px dashed #dbf049;
   border-left: 1px dashed #dbf049;
@@ -453,17 +458,51 @@ h5 {
   color: #666;
 }
 
-#nav a {
-  display: block;
+#nav span {
+  float: left;
+  display: inline-block;
   overflow: hidden;
   width: 56px;
   height: 0;
   padding-top: 19px;
   background: url("/images/menu_off.jpg") no-repeat left top;
 }
+#nav ul {
+  float: left;
+  display: inline-block;
+}
+#nav ul li {
+  display: inline-block;
+}
 
-#nav a:hover {
-  background: url("/images/menu_on.jpg") no-repeat left top;
+.navLink {
+  float: left;
+  display: inline-block;
+  padding: 0 10px;
+  font-family: helvetica, verdana, arial, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 19px;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+}
+
+.navLink:hover {
+  outline: none;
+}
+
+.navLink.on {
+  color: #7e876c;
+  background: -moz-linear-gradient(top, white 38%, rgba(255, 255, 255, 0.69) 57%, rgba(255, 255, 255, 0.39) 76%, rgba(255, 255, 255, 0) 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, white 38%, rgba(255, 255, 255, 0.69) 57%, rgba(255, 255, 255, 0.39) 76%, rgba(255, 255, 255, 0) 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, white 38%, rgba(255, 255, 255, 0.69) 57%, rgba(255, 255, 255, 0.39) 76%, rgba(255, 255, 255, 0) 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+  /* IE6-9 */
+  outline-width: 0;
 }
 
 .hdGreenLink {
@@ -508,6 +547,17 @@ a.hdGreenLink:hover,
   color: #9ab729;
 }
 
-/* Resume Items */
+/* Portfolio */
+#portfolioDetails {
+  margin-left: 10px;
+}
+
+.portItem {
+  margin-bottom: 20px;
+}
+.portItem .portImg {
+  max-width: 500px;
+  border: 2px solid #c7df63;
+}
 
 /*# sourceMappingURL=solarcomputing.css.map */
