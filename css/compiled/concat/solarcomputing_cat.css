@@ -1001,7 +1001,7 @@ h5 {
   /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, white 38%, rgba(255, 255, 255, 0.69) 57%, rgba(255, 255, 255, 0.39) 76%, rgba(255, 255, 255, 0) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color-white', endColorstr='#0ffff',GradientType=0 );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
   /* IE6-9 */
   outline-width: 0;
 }
