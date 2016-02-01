@@ -581,7 +581,7 @@ ul.portDetails {
 .portItem {
   display: table;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 2em;
   -webkit-box-shadow: 13px 14px 64px -22px rgba(88, 94, 75, 0.96);
   -moz-box-shadow: 13px 14px 64px -22px rgba(88, 94, 75, 0.96);
   box-shadow: 13px 14px 64px -22px rgba(88, 94, 75, 0.96);
@@ -607,8 +607,7 @@ ul.portDetails {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
-
-.portInfo {
+.portItem .portInfo {
   display: block;
   width: calc(100% - 44px);
   height: 100%;
@@ -628,16 +627,16 @@ ul.portDetails {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-.portInfo h6 {
+.portItem .portInfo h6 {
   margin: 0;
   font-size: 14px;
 }
-.portInfo p, .portInfo ul {
+.portItem .portInfo p, .portItem .portInfo ul {
   font-size: 12px;
 }
 
 @media (min-width: 960px) {
-  .portInfo {
+  .portItem .portInfo {
     display: table-cell;
     width: calc(40% - 4px);
     margin-left: 20px;

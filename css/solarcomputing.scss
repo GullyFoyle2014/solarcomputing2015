@@ -605,7 +605,7 @@ ul.portDetails {
 .portItem {
     display: table;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 2em;
     -webkit-box-shadow: 13px 14px 64px -22px rgba(88,94,75,0.96);
     -moz-box-shadow: 13px 14px 64px -22px rgba(88,94,75,0.96);
     box-shadow: 13px 14px 64px -22px rgba(88,94,75,0.96);
@@ -633,39 +633,40 @@ ul.portDetails {
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
     }
-}
-.portInfo {
-    display: block;
-    width: calc(100% - 44px);
-    height: 100%;
-    padding: 20px;
-    background: $color-white;
-    border: 2px dashed $color-green-border;
-    -webkit-border-top-left-radius: 0;
-    -webkit-border-top-right-radius: 0;
-    -webkit-border-bottom-right-radius: 5px;
-    -webkit-border-bottom-left-radius: 5px;
-
-    -moz-border-radius-topleft: 0;
-    -moz-border-radius-topright: 0;
-    -moz-border-radius-bottomright: 5px;
-    -moz-border-radius-bottomleft: 5px;
-
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
-
-    h6 {
-        margin: 0;
-        font-size: 14px;
-    }
-    p,ul {
-        font-size: 12px;
-    }
-}
-@media ( min-width: 960px ){
     .portInfo {
+        display: block;
+        width: calc(100% - 44px);
+        height: 100%;
+        padding: 20px;
+        background: $color-white;
+        border: 2px dashed $color-green-border;
+        -webkit-border-top-left-radius: 0;
+        -webkit-border-top-right-radius: 0;
+        -webkit-border-bottom-right-radius: 5px;
+        -webkit-border-bottom-left-radius: 5px;
+
+        -moz-border-radius-topleft: 0;
+        -moz-border-radius-topright: 0;
+        -moz-border-radius-bottomright: 5px;
+        -moz-border-radius-bottomleft: 5px;
+
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+
+        h6 {
+            margin: 0;
+            font-size: 14px;
+        }
+        p,ul {
+            font-size: 12px;
+        }
+    }
+}
+
+@media ( min-width: 960px ){
+    .portItem .portInfo {
         display: table-cell;
         width: calc(40% - 4px);
         margin-left: 20px;
