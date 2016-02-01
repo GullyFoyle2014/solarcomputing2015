@@ -559,7 +559,7 @@ table {
     display: inline;
   }
 }
-.details-list .client-ref.nolink .img {
+.nolink .img, .nolink a {
   cursor: default;
 }
 
@@ -1087,7 +1087,7 @@ ul.portDetails {
   -moz-box-shadow: 13px 14px 64px -22px rgba(88, 94, 75, 0.96);
   box-shadow: 13px 14px 64px -22px rgba(88, 94, 75, 0.96);
 }
-.portItem a {
+.portItem .portImgLink {
   display: block;
   width: 100%;
 }
@@ -1156,7 +1156,7 @@ ul.portDetails {
     border-bottom-left-radius: 0;
   }
 
-  .portItem a {
+  .portItem .portImgLink {
     display: table-cell;
     vertical-align: top;
     width: 60%;
