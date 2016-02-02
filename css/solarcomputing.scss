@@ -33,7 +33,11 @@ $sans-stack: helvetica,verdana,arial,sans-serif;
     width: 100%;
     height: 100%;
 }
-
+.fixed {
+    position: fixed !important;
+    top:0; left:0;
+    width: 100%;
+}
 /* OBJECTS */
 /** Media **/
 .media,
@@ -96,12 +100,46 @@ body {
     }
 }
 
-#nav {
+#brandBar {
+    position: relative;
     max-width: 100%;
     height: 19px;
-    margin: 5px auto 0;
+    margin: 0 auto;
 
     background: url('/images/menu_bar_960.jpg') repeat-x left top;
+}
+#sideNav {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 49px;
+    background: #d9ef42;
+    padding: 20px 20px 25px 20px;
+    border-radius: 15px 0 15px 50px;
+    border: 1px solid #ccc;
+
+    ul {
+        background: #fff;
+        padding: 10px 10px 20px 10px;
+        margin: -14px -20px -18px;
+    }
+    li {
+        border-bottom: 1px solid #d9ef42;
+    }
+    a {
+        display: block;
+        margin: 0 -10px;
+        padding: 10px;
+        font-size: 15px;
+        text-transform: lowercase;
+        text-decoration: none;
+        text-align: center;
+        color: #666;
+        
+        &:hover{
+            background: #d9ef42;
+        }
+    }
 }
 #bannerAnim {
     width: 100%;
@@ -109,8 +147,6 @@ body {
     background: url('/images/menu_bar_960.jpg') repeat-x left top;
 }
 #head {
-    overflow: hidden;
-
     max-width: 100%;
     margin: 0 auto;
     padding-top: 10px;
@@ -137,7 +173,7 @@ body {
     background: url('/images/logo.png') no-repeat left top;
 }
 .hd-contact {
-    margin-left: 15px;
+    margin: 0 0 10px 15px;
 }
 @media ( max-width: 980px ) {
     .sol-res-footer .bot {
@@ -487,27 +523,24 @@ h5 {
 
     color: $color-gray-dark;
 }
-#nav {
-    span {
-        float: left;
-        display: inline-block;
-        overflow: hidden;
-
-        width: 56px;
-        height: 0;
-        padding-top: 19px;
-
-        background: url('/images/menu_off.jpg') no-repeat left top;
-    }
-    ul {
-        float: left;
-        display: inline-block;
-
-        li {
-            display: inline-block;
-        }
+#brandBar {
+    &:after {
+        content: 'Menu';
+        clear: both;
+        float: right;
+        position: absolute;
+        right: 0;
+        top: 21px;
+        width: auto;
+        background: red;
+        padding: 5px;
+        font-size: 15px;
+        text-transform: lowercase;
+        color: #f4f4f4;
+        border-top-left-radius: 7px;
     }
 }
+
 .navLink {
     float: left;
     display: inline-block;

@@ -29,6 +29,15 @@ $( document ).ready(function() {
         $(this).addClass('on');
     });
 
+    //header lock
+    var stickyOffset = $('.sticky').offset().top;
+    $(window).scroll(function(){
+      var sticky = $('.sticky'),
+          scroll = $(window).scrollTop();
+      if (scroll >= stickyOffset) sticky.addClass('fixed');
+      else sticky.removeClass('fixed');
+    });
+
     //scroll to top
     $('#toTop').click(function(){
         $('#body').animate({
