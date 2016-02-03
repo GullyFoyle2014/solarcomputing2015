@@ -22,10 +22,6 @@ $( document ).ready(function() {
 			if( $('.portfolio')){
 				TweenMax.fromTo(portFrame, 5.0, {css:{borderColor:"#c7df63"}}, {css:{borderColor:"#8fae15"}, repeat:2,yoyo:true} );
 			}	
-
-			$('#menuTab').on('click', function(){
-				$(this).parent().toggleClass('closed');				
-			});
 		
 		}//end mations
 		mations();

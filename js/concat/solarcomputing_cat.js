@@ -22,10 +22,6 @@ $( document ).ready(function() {
 			if( $('.portfolio')){
 				TweenMax.fromTo(portFrame, 5.0, {css:{borderColor:"#c7df63"}}, {css:{borderColor:"#8fae15"}, repeat:2,yoyo:true} );
 			}	
-
-			$('#menuTab').on('click', function(){
-				$(this).parent().toggleClass('closed');				
-			});
 		
 		}//end mations
 		mations();
@@ -39,6 +35,17 @@ $( document ).ready(function() {
     //No links prevent default
     $('.nolink a, #menuTab').click( function(e) {
         e.preventDefault();
+    });
+
+    var viewportW = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if( viewportW >= 600){
+      $('.navcluster').removeClass('closed').addClass('open');
+    }
+
+
+    $('#menuTab').on('click', function(){
+      $(this).parent().toggleClass('open');       
+      $(this).parent().toggleClass('closed');
     });
 
     // More Details toggle for resume items

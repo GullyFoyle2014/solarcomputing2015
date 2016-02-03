@@ -5,6 +5,17 @@ $( document ).ready(function() {
         e.preventDefault();
     });
 
+    var viewportW = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    if( viewportW >= 600){
+      $('.navcluster').removeClass('closed').addClass('open');
+    }
+
+
+    $('#menuTab').on('click', function(){
+      $(this).parent().toggleClass('open');       
+      $(this).parent().toggleClass('closed');
+    });
+
     // More Details toggle for resume items
     $('.more-details h5 span').click(function(){
         var link = $(this);
