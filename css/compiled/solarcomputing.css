@@ -94,6 +94,29 @@ body {
   background: url("/images/menu_bar_960.jpg") repeat-x left top;
 }
 
+.navcluster.closed #sideNav {
+  display: none;
+}
+
+.navcluster.closed #menuTab {
+  border-bottom-left-radius: 7px;
+}
+
+#menuTab {
+  position: absolute;
+  right: 0;
+  top: 21px;
+  width: auto;
+  background: red;
+  padding: 6px;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: #f4f4f4;
+  border-top-left-radius: 7px;
+}
+
 #sideNav {
   overflow: hidden;
   position: absolute;
@@ -123,6 +146,11 @@ body {
   color: #666;
 }
 #sideNav a:hover {
+  background: #d9ef42;
+}
+
+.portfolio .navLink.port a,
+.resume .navLink.home a {
   background: #d9ef42;
 }
 
@@ -495,52 +523,6 @@ h5 {
   font-size: 11px;
   font-weight: bold;
   color: #666;
-}
-
-#brandBar:after {
-  content: 'Menu';
-  clear: both;
-  float: right;
-  position: absolute;
-  right: 0;
-  top: 21px;
-  width: auto;
-  background: red;
-  padding: 5px;
-  font-size: 15px;
-  text-transform: lowercase;
-  color: #f4f4f4;
-  border-top-left-radius: 7px;
-}
-
-.navLink {
-  float: left;
-  display: inline-block;
-  padding: 0 10px;
-  font-family: helvetica, verdana, arial, sans-serif;
-  font-size: 13px;
-  font-weight: bold;
-  line-height: 19px;
-  color: #fff;
-  text-decoration: none;
-  outline: none;
-}
-
-.navLink:hover {
-  outline: none;
-}
-
-.navLink.on {
-  color: #7e876c;
-  background: -moz-linear-gradient(top, white 38%, rgba(255, 255, 255, 0.69) 57%, rgba(255, 255, 255, 0.39) 76%, rgba(255, 255, 255, 0) 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, white 38%, rgba(255, 255, 255, 0.69) 57%, rgba(255, 255, 255, 0.39) 76%, rgba(255, 255, 255, 0) 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, white 38%, rgba(255, 255, 255, 0.69) 57%, rgba(255, 255, 255, 0.39) 76%, rgba(255, 255, 255, 0) 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
-  /* IE6-9 */
-  outline-width: 0;
 }
 
 .hdGreenLink {

@@ -23,12 +23,6 @@ $( document ).ready(function() {
         $(this).parent().toggleClass('hidden');
     });
 
-    //toggle nav on class styles
-    $('.navLink').on('click', function(){
-        $('.navLink').removeClass('on');
-        $(this).addClass('on');
-    });
-
     //header lock
     var stickyOffset = $('.sticky').offset().top;
     $(window).scroll(function(){
