@@ -116,6 +116,17 @@ body {
   color: #f4f4f4;
   border-top-left-radius: 7px;
 }
+#menuTab span {
+  padding-left: 20px;
+  background-image: url("/images/icon-menu.svg");
+  background-position: left;
+  background-size: 15px;
+  background-repeat: no-repeat;
+}
+
+.navcluster.closed #menuTab span {
+  background-image: url("/images/icon-menu_fff.svg");
+}
 
 #sideNav {
   overflow: hidden;
@@ -590,8 +601,27 @@ a.hdGreenLink:hover,
   padding: 5px 10px;
   margin: -16px 0 15px;
   display: block;
-  width: 145px;
+  width: 175px;
   text-align: center;
+}
+
+#portSort label {
+  float: left;
+  font-size: 11px;
+  text-transform: uppercase;
+  line-height: 19px;
+}
+#portSort select {
+  height: 19px;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-weight: bold;
+  font-size: 14px;
+}
+#portSort select:focus {
+  outline: none;
+  border: none;
 }
 
 ul.portDetails {

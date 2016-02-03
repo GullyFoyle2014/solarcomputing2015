@@ -61,9 +61,22 @@
     <h2 id="mainHd">Portfolio</h2>
 
     <section id="portfolioDisplay" class="clean-uls">
-        
         <div class="portfolioElem hearst">
-            <h5><span class="flag">Hearst</span></h5>
+            <h5>
+                <span class="flag">
+                    <form name="portSort" id="portSort">
+                        <label for="typeSelect">Sort:</label>
+                        <select name="typeSelect" id="typeSelect">
+                            <option selected="selected">All</option>
+                            <option>Hearst</option>
+                            <option>Penton Media</option>
+                            <option>Freelance Work</option>
+                            <option>SPALAB</option>
+                            <option>OVEN Digital</option>
+                        </select>
+                    </form>
+                </span>
+            </h5>
             <ul class="portDetails">
                 <li class="hearst portItem first">
                     <a href="http://sfgate.com" target="_blank" class="portImgLink"><img src="/images/sm_portfolio_SFGate.png" class="portImg" /></a>
