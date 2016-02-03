@@ -37,7 +37,7 @@ $( document ).ready(function() {
 $( document ).ready(function() {
 
     //No links prevent default
-    $('.nolink a').click( function(e) {
+    $('.nolink a, #menuTab').click( function(e) {
         e.preventDefault();
     });
 

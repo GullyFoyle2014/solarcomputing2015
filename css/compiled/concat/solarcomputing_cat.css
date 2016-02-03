@@ -841,6 +841,10 @@ h2 {
   background: #fff;
 }
 
+.portfolio #mainHd {
+  margin: 0.6em 0 0.2em;
+}
+
 @media (max-width: 700px) {
   .skills-hd,
   .experience-hd,
