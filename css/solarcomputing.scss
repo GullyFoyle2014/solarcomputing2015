@@ -121,13 +121,14 @@ body {
     text-transform: lowercase;
     text-decoration: none;
     color: #f4f4f4;
+    border: 1px solid #999;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
 
     span{
         padding-left: 20px;
         background-image: url('/images/icon-menu.svg');
-        background-position: left;
+        background-position: 0 1px;
         background-size: 15px;
         background-repeat: no-repeat;
     }
@@ -135,7 +136,13 @@ body {
 .navcluster.closed #menuTab span {
         background-image: url('/images/icon-menu_fff.svg');
 }
-
+/*
+#hamburger {
+    position: absolute;
+    left: 8px;
+    top: 7px;
+}
+*/
 #sideNav {
     display: none;
     overflow: hidden;

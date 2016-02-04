@@ -14,6 +14,13 @@ $( document ).ready(function() {
     $('#menuTab').on('click', function(){
       $(this).parent().toggleClass('open');       
       $(this).parent().toggleClass('closed');
+      // if( $(this).parent().hasClass('closed') ){
+      //   //tween background-image color from fff to 000
+      //   TweenMax.fromTo( $('#hamburger'), 0.1, {fill: "rgb(255,0,255)"}, {fill: "rgb(0,51,0)"});
+      // }
+      // else {
+      //   TweenMax.fromTo( $('#hamburger'), 0.1, {fill: "rgb(0,51,0)"}, {fill: "rgb(255,0,255)"});
+      // }
     });
 
     // More Details toggle for resume items
