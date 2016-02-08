@@ -6,6 +6,7 @@ $( document ).ready(function() {
     });
 
     var viewportW = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+    var sideNav = document.getElementById('sideNav');
     if( viewportW >= 600){
       $('.navcluster').removeClass('closed').addClass('open');
     }
@@ -14,6 +15,7 @@ $( document ).ready(function() {
     $('#menuTab').on('click', function(){
       $(this).parent().toggleClass('open');       
       $(this).parent().toggleClass('closed');
+      
       // if( $(this).parent().hasClass('closed') ){
       //   //tween background-image color from fff to 000
       //   TweenMax.fromTo( $('#hamburger'), 0.1, {fill: "rgb(255,0,255)"}, {fill: "rgb(0,51,0)"});
