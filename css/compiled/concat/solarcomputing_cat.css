@@ -1160,6 +1160,9 @@ ul.portDetails {
   -moz-box-shadow: 13px 14px 64px -22px rgba(88, 94, 75, 0.96);
   box-shadow: 13px 14px 64px -22px rgba(88, 94, 75, 0.96);
 }
+.portItem.overflow {
+  display: none;
+}
 .portItem .portImgLink {
   display: block;
   width: 100%;
