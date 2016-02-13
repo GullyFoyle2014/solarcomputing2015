@@ -499,7 +499,6 @@ table {
 
 /*# sourceMappingURL=normalize.css.map */
 
-@charset "UTF-8";
 /* Colors */
 /* fonts */
 /* Common styles */
@@ -602,7 +601,7 @@ body {
   top: 21px;
   width: auto;
   background: red;
-  padding: 6px;
+  padding: 4px 6px 6px;
   font-weight: bold;
   font-size: 13px;
   text-transform: lowercase;
@@ -614,20 +613,14 @@ body {
 }
 #menuTab span {
   padding-left: 20px;
+  background-image: url("/images/icon-menu.svg");
   background-position: 0 1px;
   background-size: 15px;
   background-repeat: no-repeat;
 }
-#menuTab span:after {
-  content: '☰';
-  position: absolute;
-  left: 9px;
-  top: 19%;
-  color: #000;
-}
 
-.navcluster.closed #menuTab span:after {
-  color: #fff;
+.navcluster.closed #menuTab span {
+  background-image: url("/images/icon-menu_fff.svg");
 }
 
 /*
