@@ -1,13 +1,5 @@
-/* Variables */
-$color-green: #9ab729;
-$color-green-border: #8fae15;
-$color-green-border-imgframe: #c7df63;
-$color-green-lightest: #dbf049;
-$color-gray-dark: #666;
-$color-gray-darkest: #333;
-$color-white: #fff;
-/*fonts*/
-$sans-stack: helvetica,verdana,arial,sans-serif;
+@import "colors";
+@import "fonts";
 
 /* Common styles */
 .clean-uls ul {
@@ -38,6 +30,7 @@ $sans-stack: helvetica,verdana,arial,sans-serif;
     top:0; left:0;
     width: 100%;
 }
+
 /* OBJECTS */
 /** Media **/
 .media,
@@ -304,6 +297,7 @@ body {
         overflow: hidden;
         width: 68%;
         margin: 0 auto;
+        text-align: center;
     }
 }
 .download-resume {
@@ -622,6 +616,7 @@ a.hdGreenLink:hover,
 }
 .portfolioElem {
     padding-top: 20px;
+    clear: right;
 }
 .portfolio h5 {
     font-size: 14px;
@@ -638,6 +633,9 @@ a.hdGreenLink:hover,
     display: block;
     width: 175px;
     text-align: center;
+}
+.portfolioElem.sortNav .flag {
+    float: right;
 }
 #portSort {
     label {
@@ -664,6 +662,9 @@ a.hdGreenLink:hover,
 ul.portDetails {
     margin-left: 10px;
 }
+.overflow {
+    display: none;
+}
 .portItem {
     display: table;
     overflow: hidden;
@@ -672,9 +673,6 @@ ul.portDetails {
     -moz-box-shadow: 13px 14px 64px -22px rgba(88,94,75,0.96);
     box-shadow: 13px 14px 64px -22px rgba(88,94,75,0.96);
 
-    &.overflow {
-        display: none;
-    }
     .portImgLink {
         display: block;
         width: 100%;

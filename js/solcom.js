@@ -74,54 +74,60 @@ $( document ).ready(function() {
         var publishers = $('.portItem.publisher');
         var allClients = [hearst,penton,freelance,spalab,oven,agency,publishers];
 
+        function controlHdrDisplay(){
+          //remove filtered section headers from display (may return them as an animated sortable nav state)
+
+        }
 
           switch( portSection ) {
 
               case 'all':
                   //show all items
                   console.log("case is all - show all items");
+                  $('.portfolioElem').addClass('overflow');
+                  $('.portfolioElem, .portfolioElem.sortNav').removeClass('overflow');                  
                   break;
               case 'hearst':
                   //show hearst items
                   console.log("case is hearst - show hearst items");
-                  $('.portItem').addClass('overflow');
-                  $('.portItem.hearst').removeClass('overflow');
+                  $('.portfolioElem').addClass('overflow');
+                  $('.portfolioElem.hearst, .portfolioElem.sortNav').removeClass('overflow');
                   break;
               case 'penton':
                   //show penton items
                   console.log("case is penton - show penton items");
-                  $('.portItem').addClass('overflow');
-                  $('.portItem.penton').removeClass('overflow');
+                  $('.portfolioElem').addClass('overflow');
+                  $('.portfolioElem.penton, .portfolioElem.sortNav').removeClass('overflow');
                   break;
               case 'freelance':
                   //show freelance items
                   console.log("case is freelance - show freelance items");
-                  $('.portItem').addClass('overflow');
-                  $('.portItem.freelance').removeClass('overflow');
+                  $('.portfolioElem').addClass('overflow');
+                  $('.portfolioElem.freelance, .portfolioElem.sortNav').removeClass('overflow');
                   break;
               case 'spalab':
                   //show spalab
                   console.log("case is spalab - show spalab items");
-                  $('.portItem').addClass('overflow');
-                  $('.portItem.spalab').removeClass('overflow');
+                  $('.portfolioElem').addClass('overflow');
+                  $('.portfolioElem.spalab, .portfolioElem.sortNav').removeClass('overflow');
                   break;
               case 'oven':
                   //show oven
                   console.log("case is oven - show oven items");
-                  $('.portItem').addClass('overflow');
-                  $('.portItem.oven').removeClass('overflow');
+                  $('.portfolioElem').addClass('overflow');
+                  $('.portfolioElem.oven, .portfolioElem.sortNav').removeClass('overflow');
                   break;
               case 'agency':
                   //show agency work
                   console.log("case is agency work - show agency items (oven, spalab, freelance)");
-                  $('.portItem').addClass('overflow');
-                  $('.portItem.agency').removeClass('overflow');
+                  $('.portfolioElem').addClass('overflow');
+                  $('.portfolioElem.agency, .portfolioElem.sortNav').removeClass('overflow');
                   break;
               case 'publishers':
                   //show publisher work
                   console.log("case is publisher - show publisher work (hearst, penton, freelance, oven");
-                  $('.portItem').addClass('overflow');
-                  $('.portItem.publisher').removeClass('overflow');
+                  $('.portfolioElem').addClass('overflow');
+                  $('.portfolioElem.publishers, .portfolioElem.sortNav').removeClass('overflow');
                   break;
 
               default:
@@ -134,5 +140,7 @@ $( document ).ready(function() {
         // console.log( this.value ); 
         // or $(this).val()
     });
+
+
 
 });//end doc.ready

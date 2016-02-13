@@ -1,5 +1,5 @@
-/* Variables */
-/*fonts*/
+/* Colors */
+/* fonts */
 /* Common styles */
 .clean-uls ul {
   margin: 0;
@@ -309,6 +309,7 @@ body {
     overflow: hidden;
     width: 68%;
     margin: 0 auto;
+    text-align: center;
   }
 }
 .download-resume .inline-list {
@@ -608,6 +609,7 @@ a.hdGreenLink:hover,
 
 .portfolioElem {
   padding-top: 20px;
+  clear: right;
 }
 
 .portfolio h5 {
@@ -626,6 +628,10 @@ a.hdGreenLink:hover,
   display: block;
   width: 175px;
   text-align: center;
+}
+
+.portfolioElem.sortNav .flag {
+  float: right;
 }
 
 #portSort label {
@@ -651,6 +657,10 @@ ul.portDetails {
   margin-left: 10px;
 }
 
+.overflow {
+  display: none;
+}
+
 .portItem {
   display: table;
   overflow: hidden;
@@ -658,9 +668,6 @@ ul.portDetails {
   -webkit-box-shadow: 13px 14px 64px -22px rgba(88, 94, 75, 0.96);
   -moz-box-shadow: 13px 14px 64px -22px rgba(88, 94, 75, 0.96);
   box-shadow: 13px 14px 64px -22px rgba(88, 94, 75, 0.96);
-}
-.portItem.overflow {
-  display: none;
 }
 .portItem .portImgLink {
   display: block;
