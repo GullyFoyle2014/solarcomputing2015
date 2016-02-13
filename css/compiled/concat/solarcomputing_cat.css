@@ -598,10 +598,10 @@ body {
 #menuTab {
   position: absolute;
   right: 0;
-  top: 21px;
+  top: 22px;
   width: auto;
   background: red;
-  padding: 4px 6px 6px;
+  padding: 3px 6px 6px;
   font-weight: bold;
   font-size: 13px;
   text-transform: lowercase;
