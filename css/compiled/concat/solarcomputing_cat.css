@@ -614,7 +614,7 @@ body {
 #menuTab span {
   padding-left: 20px;
   background-image: url("/images/icon-menu.svg");
-  background-position: 0 1px;
+  background-position: 0 2px;
   background-size: 15px;
   background-repeat: no-repeat;
 }
