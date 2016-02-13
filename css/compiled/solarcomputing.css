@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* Colors */
 /* fonts */
 /* Common styles */
@@ -112,14 +113,20 @@ body {
 }
 #menuTab span {
   padding-left: 20px;
-  background-image: url("/images/icon-menu.svg");
   background-position: 0 1px;
   background-size: 15px;
   background-repeat: no-repeat;
 }
+#menuTab span:after {
+  content: '☰';
+  position: absolute;
+  left: 9px;
+  top: 19%;
+  color: #000;
+}
 
-.navcluster.closed #menuTab span {
-  background-image: url("/images/icon-menu_fff.svg");
+.navcluster.closed #menuTab span:after {
+  color: #fff;
 }
 
 /*

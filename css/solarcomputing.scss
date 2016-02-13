@@ -120,14 +120,24 @@ body {
 
     span{
         padding-left: 20px;
-        background-image: url('/images/icon-menu.svg');
         background-position: 0 1px;
         background-size: 15px;
         background-repeat: no-repeat;
+
+        &:after {
+            content: '☰';
+            position: absolute;
+            left: 9px;
+            top: 19%;
+            color: #000;
+        }
     }
+
 }
 .navcluster.closed #menuTab span {
-        background-image: url('/images/icon-menu_fff.svg');
+        &:after {
+            color: #fff;
+        }
 }
 /*
 #hamburger {
