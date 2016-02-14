@@ -368,6 +368,7 @@ h2 {
 }
 
 .portfolio #mainHd {
+  float: left;
   margin: 0.6em 0 0.2em;
 }
 
@@ -642,6 +643,12 @@ a.hdGreenLink:hover,
   display: block;
   width: 175px;
   text-align: center;
+}
+
+.portfolioElem.sortNav {
+  margin-bottom: 70px;
+  margin-top: 3px;
+  z-index: 5;
 }
 
 .portfolioElem.sortNav .flag {
