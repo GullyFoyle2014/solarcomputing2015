@@ -1,5 +1,10 @@
 /* Colors */
 /* fonts */
+/*
+font-family: 'Press Start 2P', cursive;
+font-family: 'Gidugu', sans-serif;
+font-family: 'Monda', helvetica, sans-serif;
+*/
 /* Common styles */
 .clean-uls ul {
   margin: 0;
@@ -71,7 +76,7 @@
 
 /* Main Structure */
 body {
-  font-family: verdana, arial;
+  font-family: helvetica, verdana, arial, sans-serif;
 }
 
 #sol-content {
@@ -313,7 +318,7 @@ body {
   }
 }
 .download-resume .inline-list {
-  font-size: 10px;
+  font-size: 14px;
   font-weight: bold;
   color: #666;
 }
@@ -358,6 +363,8 @@ h2 {
   -moz-border-radius-bottomright: 8px;
   border-bottom-right-radius: 8px;
   background: #fff;
+  font-family: "Monda", helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .portfolio #mainHd {
@@ -379,13 +386,19 @@ h2 {
 }
 .sol-skills {
   margin: 0 25px 20px 0;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 20px;
+}
+.sol-skills p {
+  line-height: 22px;
 }
 
 .sol-software {
-  font-size: 13px;
+  font-size: 15px;
   line-height: 20px;
+}
+.sol-software p {
+  line-height: 22px;
 }
 
 @media (max-width: 540px) {
@@ -432,6 +445,7 @@ h2 {
 .sol-res-item h4,
 .sol-res-item h5 {
   padding-right: 90px;
+  font-size: 14px;
 }
 .sol-res-item h5 {
   margin-bottom: 2px;
@@ -440,7 +454,7 @@ h2 {
 .sol-res-item p,
 .more-details {
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 20px;
   color: #666;
   text-align: justify;
@@ -527,10 +541,10 @@ h1 a {
 
 h2 {
   padding: 15px 0;
-  font-family: helvetica, verdana, arial, sans-serif;
-  font-size: 1.1em;
+  font-family: "Monda", helvetica, sans-serif;
+  font-size: 1.4em;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.4;
   letter-spacing: 3px;
   text-transform: uppercase;
   color: #666;
@@ -561,7 +575,7 @@ h5 {
 }
 
 .hdGreenLink {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 13px;
   text-decoration: none;
@@ -575,7 +589,7 @@ h5 {
 
 .hdGreenLink,
 .poplink {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 13px;
   text-decoration: none;
@@ -584,7 +598,7 @@ h5 {
 
 .hdGreenLink:link,
 .poplink:link {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 13px;
   text-decoration: none;
@@ -613,7 +627,7 @@ a.hdGreenLink:hover,
 }
 
 .portfolio h5 {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 0 0;
   color: #9ab729;
   border-top: 1px dashed #8fae15;
@@ -712,10 +726,11 @@ ul.portDetails {
 }
 .portItem .portInfo h6 {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
 }
 .portItem .portInfo p, .portItem .portInfo ul {
-  font-size: 12px;
+  font-size: 15px;
+  line-height: 23px;
 }
 
 @media (min-width: 960px) {

@@ -77,7 +77,7 @@
 
 /* Main Structure */
 body {
-    font-family: verdana, arial;
+    font-family: $sans-stack;
 }
 #sol-content {
     max-width: 958px;
@@ -302,7 +302,7 @@ body {
 }
 .download-resume {
     .inline-list {
-        font-size: 10px;
+        font-size: 14px;
         font-weight: bold;
         color: $color-gray-dark;
 
@@ -351,6 +351,9 @@ h2 {
     -moz-border-radius-bottomright: 8px;
             border-bottom-right-radius: 8px;
     background: $color-white;
+    font-family: $mondaHdr;
+    font-size: 20px;
+
 }
 .portfolio #mainHd {
     margin: 0.6em 0 0.2em;
@@ -370,12 +373,20 @@ h2 {
 .sol-skills {
     margin: 0 25px 20px 0;
 
-    font-size: 13px;
+    font-size: 15px;
     line-height: 20px;
+
+    p {
+        line-height: 22px;  
+    }
 }
 .sol-software {
-    font-size: 13px;
+    font-size: 15px;
     line-height: 20px;
+
+    p {
+        line-height: 22px;  
+    }
 }
 @media ( max-width: 540px ) {
     .sol-skills,
@@ -421,6 +432,7 @@ h2 {
     h4,
     h5 {
         padding-right: 90px;
+        font-size: 14px;
     }
     h5 {
         margin-bottom: 2px;
@@ -430,7 +442,7 @@ h2 {
 .more-details {
     margin-top: 20px;
 
-    font-size: 12px;
+    font-size: 14px;
     line-height: 20px;
 
     color: #666;
@@ -528,10 +540,10 @@ h1 a {
 h2 {
     padding: 15px 0;
 
-    font-family: $sans-stack;
-    font-size: 1.1em;
+    font-family: $mondaHdr;
+    font-size: 1.4em;
     font-weight: bold;
-    line-height: 1.2;
+    line-height: 1.4;
 
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -566,7 +578,7 @@ h5 {
     color: $color-gray-dark;
 }
 .hdGreenLink {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 13px;
 
@@ -581,7 +593,7 @@ h5 {
 }
 .hdGreenLink,
 .poplink {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 13px;
 
@@ -591,7 +603,7 @@ h5 {
 }
 .hdGreenLink:link,
 .poplink:link {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     line-height: 13px;
 
@@ -619,7 +631,7 @@ a.hdGreenLink:hover,
     clear: right;
 }
 .portfolio h5 {
-    font-size: 14px;
+    font-size: 16px;
     margin: 0 0 0;
     color: #9ab729;
     border-top: 1px dashed #8fae15;
@@ -720,10 +732,11 @@ ul.portDetails {
 
         h6 {
             margin: 0;
-            font-size: 14px;
+            font-size: 16px;
         }
         p,ul {
-            font-size: 12px;
+            font-size: 15px;
+            line-height: 23px;
         }
     }
 }
