@@ -1042,7 +1042,7 @@ h1 a {
 }
 
 h2 {
-  padding: 15px 0;
+  padding: 15px 10px;
   font-family: "Monda", helvetica, sans-serif;
   font-size: 1.4em;
   font-weight: bold;
@@ -1156,6 +1156,17 @@ a.hdGreenLink:hover,
   float: right;
 }
 
+@media (max-width: 500px) {
+  .portfolioElem.sortNav {
+    clear: both;
+    margin-bottom: 0;
+  }
+
+  .portfolioElem.sortNav .flag {
+    float: none;
+    margin: -16px auto 15px;
+  }
+}
 #portSort label {
   float: left;
   font-size: 11px;

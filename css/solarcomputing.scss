@@ -539,7 +539,7 @@ h1 a {
     border: none;
 }
 h2 {
-    padding: 15px 0;
+    padding: 15px 10px;
 
     font-family: $mondaHdr;
     font-size: 1.4em;
@@ -654,6 +654,16 @@ a.hdGreenLink:hover,
 }
 .portfolioElem.sortNav .flag {
     float: right;
+}
+@media( max-width: 500px){
+    .portfolioElem.sortNav {
+        clear: both;
+        margin-bottom: 0;
+    }
+    .portfolioElem.sortNav .flag {
+        float: none;
+        margin: -16px auto 15px;
+    }
 }
 #portSort {
     label {
