@@ -523,6 +523,12 @@ h2 {
   background-size: 26%;
 }
 
+@media (min-width: 768px) {
+  .sol-res-item.penton,
+  .sol-res-item.hearst {
+    background-size: 13%;
+  }
+}
 .item-callout {
   display: block;
   padding: 10px 0 0;
