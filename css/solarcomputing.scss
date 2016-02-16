@@ -44,7 +44,7 @@
         .img {
             float: left;
 
-            margin-right: 15px;
+            margin-right: 10px;
 
             img {
                 display: block;
@@ -352,8 +352,13 @@ h2 {
             border-bottom-right-radius: 8px;
     background: $color-white;
     font-family: $mondaHdr;
-    font-size: 20px;
+    font-size: 22px;
+    line-height: 27px;
+    box-shadow: 3px 4px 22px -8px;
 
+}
+#mainHd {
+    max-width: 60%;
 }
 .portfolio #mainHd {
     float: left;
@@ -365,10 +370,7 @@ h2 {
     .education-hd,
     .awards-hd,
     h2 {
-        width: 50%;
-    }
-    .education-hd span {
-        display: block;
+        width: 80%;
     }
 }
 .sol-skills {
@@ -410,6 +412,9 @@ h2 {
 .sol-skills span,
 .sol-software span {
     font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Monda';
+    color: #222;
 }
 @media ( max-width: 700px ) {
     .sol-skills,
@@ -428,15 +433,55 @@ h2 {
 .sol-res-item {
     margin-bottom: 30px;
     padding: 0 20px;
+    background-size: 26%;
 }
 .sol-res-item {
     h4,
-    h5 {
-        padding-right: 90px;
+    h5,
+    h6 {
+        padding-right: 80px;
         font-size: 14px;
     }
+    h4 {
+        font-size: 18px;
+        margin-bottom: 8px;
+        font-family: 'Monda';
+        line-height: 20px;
+        letter-spacing: .5px;
+    }
     h5 {
-        margin-bottom: 2px;
+        margin-bottom: 3px;
+    }
+    h6 {
+        font-size: 12px;
+        color: #222;
+        margin: 0;
+        padding: 0;
+    }
+    &.awards  {
+
+        h4 {
+            font-size: 14px;
+            margin-bottom: 5px;
+            font-family: Monda;
+            line-height: 16px;
+            letter-spacing: .5px;
+        }
+        h5 {
+            margin-bottom: 2px;
+            line-height: 16px;
+        }
+    }
+    &.education {
+        h4 {
+            font-size: 14px;
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+        h5 {
+            margin-bottom: 3px;
+            line-height: 18px;
+        }
     }
 }
 .sol-res-item p,
@@ -453,12 +498,19 @@ h2 {
     .sol-res-item p {
         text-align: left;
     }
+    .sol-res-item h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        line-height: 22px;
+    }
 }
 .sol-res-item.hearst {
     background: url('/images/clients/hearst/experience_client_logo_transparency-hearst_sm.png') no-repeat 97% top;
+    background-size: 26%;
 }
 .sol-res-item.penton {
     background: url('/images/clients/penton/experience_client_logo_transparency_Penton.png') no-repeat 97% -10px;
+    background-size: 26%;
 }
 .item-callout {
     display: block;
@@ -475,8 +527,8 @@ h2 {
     }
     ul {
         display: none;
-        margin: 15px 20px 5px 5px;
-        padding-bottom: 10px;
+        margin: 15px 10px 5px 5px;
+        padding: 0 0 10px 15px;
         border-bottom: 1px solid #e4f477;
 
         li {
