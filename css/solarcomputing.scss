@@ -700,12 +700,13 @@ a.hdGreenLink:hover,
 .portfolio .flag {
     background: $color-white;
     border-radius: 5px;
-    border: 1px dashed $color-green;
+    border: 2px dashed $color-green;
     padding: 5px 10px;
     margin: -16px 0 15px;
     display: block;
     width: 175px;
     text-align: center;
+    letter-spacing: 1px;
 }
 .portfolioElem.sortNav {
     margin-bottom: 70px;

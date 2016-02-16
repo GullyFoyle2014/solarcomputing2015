@@ -692,12 +692,13 @@ a.hdGreenLink:hover,
 .portfolio .flag {
   background: #fff;
   border-radius: 5px;
-  border: 1px dashed #9ab729;
+  border: 2px dashed #9ab729;
   padding: 5px 10px;
   margin: -16px 0 15px;
   display: block;
   width: 175px;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .portfolioElem.sortNav {
