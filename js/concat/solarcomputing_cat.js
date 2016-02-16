@@ -20,7 +20,17 @@ $( document ).ready(function() {
 			TweenMax.fromTo(mainHd, 0.5, {color:"#fff",marginLeft:-300,opacity:0,autoAlpha:1,ease: Power0.easeInOut},{color:"#666",marginLeft:-1, autoAlpha:1, opacity:1,ease: Power0.easeInOut},"-=0.1");
 			
 			if( $('.portfolio')){
-				TweenMax.fromTo(portFrame, 5.0, {css:{borderColor:"#c7df63"}}, {css:{borderColor:"#8fae15"}, repeat:2,yoyo:true} );
+
+    			var viewportW = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+				if( viewportW >= 960){
+						TweenMax.fromTo(portFrame, 5.0, {css:{borderRightColor:"#c7df63"}}, {css:{borderRightColor:"#666"}, repeat:2,yoyo:true} );
+						console.log('firing  960-to-desktop animation, border right.');
+				}
+				else {
+						TweenMax.fromTo(portFrame, 5.0, {css:{borderBottomColor:"#c7df63"}}, {css:{borderBottomColor:"#666"}, repeat:2,yoyo:true} );
+						console.log('firing  phone to 960 animation, border bottom.');
+				}
+
 			}	
 		
 		}//end mations

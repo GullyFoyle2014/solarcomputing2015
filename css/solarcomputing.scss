@@ -27,7 +27,9 @@
 }
 .fixed {
     position: fixed !important;
-    top:0; left:0;
+    z-index: 2000;
+    top:0;
+    left:0;
     width: 100%;
 }
 
@@ -362,7 +364,7 @@ h2 {
 }
 .portfolio #mainHd {
     float: left;
-    margin: 0.6em 0 0.2em;
+    margin: .6em 0 1em;
 }
 @media ( max-width: 700px) {
     .skills-hd,
@@ -748,6 +750,7 @@ ul.portDetails {
 .portItem {
     display: table;
     overflow: hidden;
+    position: relative;
     margin-bottom: 2em;
     -webkit-box-shadow: 13px 14px 64px -22px rgba(88,94,75,0.96);
     -moz-box-shadow: 13px 14px 64px -22px rgba(88,94,75,0.96);
@@ -756,10 +759,27 @@ ul.portDetails {
     .portImgLink {
         display: block;
         width: 100%;
+        position: relative;
+
+        &:after {
+            content: '';
+            display: inline-block;
+            width: calc(100% - 2px);
+            height: calc(100% - 2px);
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-top: 1px solid #999;
+            border-right: 1px solid #999;
+            border-left: 1px solid #999;
+            border-bottom: none;
+            
+        }
+
     }
     .portImg {
         width: calc(100% - 16px);
-        margin-bottom: -5px;
+        margin-bottom: -6px;
         border: 8px solid $color-green-border-imgframe;
         -webkit-border-top-left-radius: 5px;
         -webkit-border-top-right-radius: 5px;
@@ -833,9 +853,19 @@ ul.portDetails {
         display: table-cell;
         vertical-align: top;
         width: 60%;
+
+        &:after {
+            width: calc(100% - 2px);
+            height: calc(100% - 2px);
+
+            border-top: 1px solid #999;
+            border-bottom: 1px solid #999;
+            border-left: 1px solid #999;
+            border-right: none;
+        }
     }
     .portItem .portImg {
-        margin-bottom: -3px;
+        margin-bottom: -4px;
         border-right: 12px solid #c7df63;
         -webkit-border-top-left-radius: 5px;
         -webkit-border-top-right-radius: 0;
@@ -851,5 +881,17 @@ ul.portDetails {
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 5px;
+
+        &:after {
+            width: calc(100% - 2px);
+            height: calc(100% - 2px);
+            border-top: 1px solid #999;
+            position: absolute;
+            top: 0;
+            left: 0;
+            border-left: 1px solid #999;
+            border-bottom: none;
+            border-right: 1px solid #999;
+        }
     }
 }
