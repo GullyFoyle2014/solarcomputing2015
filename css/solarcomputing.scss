@@ -429,8 +429,6 @@ h2 {
 .sol-res-items {
     display: inline-block;
     clear: both;
-
-    margin-top: 40px;
 }
 .sol-res-item {
     margin-bottom: 30px;
@@ -514,9 +512,14 @@ h2 {
     background: url('/images/clients/penton/experience_client_logo_transparency_Penton.png') no-repeat 97% -10px;
     background-size: 26%;
 }
+.sol-res-item.brooksbrothers {
+    background: url('/images/clients/brooksbrothers/bb_logo.jpg') no-repeat 97% -10px;
+    background-size: 26%;
+}
 @media(min-width: 768px ){
     .sol-res-item.penton,
-    .sol-res-item.hearst {
+    .sol-res-item.hearst,
+    .sol-res-item.brooksbrothers {
         background-size: 13%;
     }
 }
