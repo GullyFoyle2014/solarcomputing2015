@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" href="../css/compiled/normalize.css">
+<head>
+	<meta charset="UTF-8">
+	<title>Touch Machine</title>
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #000d44;
+		}
+		#touchMachine {
+			height: 100vh;
+			width: 100vw;
+			background: #000d44;
+		}
+		#padArray {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		.tpad {
+		    display: inline-block;
+		    background: #0025bc;
+		    box-sizing: border-box;
+		    width: 22vw;
+		    height: 21vh;
+		    margin: 1vh 1vw;
+		    opacity: .6;
+		    border-radius: 20px;
+		    list-style: none;
+		     -webkit-transition: all 200ms ease;
+    		-moz-transition: all 200ms ease;
+    		-o-transition: all 200ms ease;
+    		transition: all 200ms ease;
+		}
+		.tpad:hover {
+			background: #bf00c2;
+
+		}
+
+	</style>
+</head>
+<body>
+	<div id="touchMachine">
+		<ul id="padArray">
+			<li id="pad0" class="tpad tpad00"></li>
+			<li id="pad1" class="tpad tpad00"></li>
+			<li id="pad2" class="tpad tpad00"></li>
+			<li id="pad3" class="tpad tpad00"></li>
+
+			<li id="pad4" class="tpad tpad00"></li>
+			<li id="pad5" class="tpad tpad00"></li>
+			<li id="pad6" class="tpad tpad00"></li>
+			<li id="pad7" class="tpad tpad00"></li>
+
+			<li id="pad8" class="tpad tpad00"></li>
+			<li id="pad0" class="tpad tpad00"></li>
+			<li id="pad10" class="tpad tpad00"></li>
+			<li id="pad11" class="tpad tpad00"></li>
+
+			<li id="pad12" class="tpad tpad00"></li>
+			<li id="pad13" class="tpad tpad00"></li>
+			<li id="pad14" class="tpad tpad00"></li>
+			<li id="pad15" class="tpad tpad00"></li>
+		</ul>
+
+	</div>
+</body>
+<script type="text/javascript" src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="../node_modules/howler/dist/howler.min.js"></script>
+<script type="text/javascript" src="../node_modules/howler/dist/howler.spatial.min.js"></script>
+
+<script type="text/javascript" src="../js/touchmachine.js"></script>
+</html>

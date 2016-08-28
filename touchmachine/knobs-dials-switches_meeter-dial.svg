@@ -1,0 +1,12 @@
+
+<svg width="89px" height="238px" viewBox="2660 -250 89 238" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2823.67969,-131 C2823.67969,-134.215549 2770.40858,-150.741226 2704.69534,-167.911133 C2638.98211,-185.08104 2585.711,-168.555363 2585.711,-131 C2585.711,-93.444637 2638.98211,-76.91896 2704.69534,-94.0888672 C2770.40858,-111.258774 2823.67969,-127.784451 2823.67969,-131 Z" id="path-1"></path>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="237.968685" height="87.3981916" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <use id="Oval" stroke="#001F2F" mask="url(#mask-2)" stroke-width="10" fill-opacity="0.800000012" fill="#B50909" fill-rule="evenodd" transform="translate(2704.695345, -131.000000) rotate(-90.000000) translate(-2704.695345, 131.000000) " xlink:href="#path-1"></use>
+</svg>
